@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.cloudthing.technical.coderound.TestCases.CloudThing">
+        <methods>
+          <include name="baseTest"/>
+          <include name="quitBrowser"/>
+          <include name="submitResume"/>
+        </methods>
+      </class> <!-- com.cloudthing.technical.coderound.TestCases.CloudThing -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
